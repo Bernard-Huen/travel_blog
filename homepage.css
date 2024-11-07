@@ -87,6 +87,7 @@ img {
     transform: translateX(100%);
 }
 
+
 .navbar .mobile-menu-list {
     display: flex;
     flex-direction: column;
@@ -111,12 +112,19 @@ img {
 
 @media (max-width:768px) {
     .navbar .main-menu {
-        display:none
+        display:none;
+        position: relative;
+        z-index: 90;
     }
 
     .navbar .mobile-menu {
         display : block;
+        z-index: 90;
     }
+
+    /* #img-1 {
+        z-index: 1;
+    } */
 }
 
 /* ==========
@@ -125,12 +133,13 @@ Home Page CSS
 
 .hero {
     max-width: 1200px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0 auto;
     padding: 0 2rem;
     background-color: #e3f3ee;
     line-height: 1.6;
      /* border: 1px solid red; */
+     z-index: 1;
 }
 
 header{
