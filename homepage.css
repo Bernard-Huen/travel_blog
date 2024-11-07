@@ -84,7 +84,7 @@ img {
     background: #E4C29D;
     text-align: center;
     transition: transform 0.3s ease;
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 
 
@@ -111,6 +111,11 @@ img {
 }
 
 @media (max-width:768px) {
+    .hero {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
     .navbar .main-menu {
         display:none;
         position: relative;
@@ -240,7 +245,6 @@ button:hover {
     /* border: 1px solid red; */
 }
 
-
 /* ==========
 Countries 
 ==========CSS */
@@ -304,7 +308,8 @@ Countries
 }
 
 .btn-end {
-    padding-bottom: 5px;}
+    padding-bottom: 5px;
+    margin-bottom: 0;}
     /* border: 1px solid red;
 } */
 
