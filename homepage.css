@@ -253,6 +253,7 @@ Countries
     margin-right: auto;
     margin-bottom: 15px;
     max-width: 70%;
+    filter:drop-shadow(10px 10px 5px #eca944e3); 
     /* border: 1px solid red; */
 }
 
