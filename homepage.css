@@ -323,3 +323,57 @@ Countries
     letter-spacing: 1.6;
     /* border: 1px solid red; */
 }
+
+
+
+
+#container-dice{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2d89b8;
+}
+
+#dice6 {
+    margin-top: 20px;
+    width: 120px;
+    font-size: 1.5rem;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: none;
+    background-color:#b8bae0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#dice6:hover{
+    background-color: #e0b8d8;
+    transform: scale(1.1);
+}
+
+
+input{
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    color: #008cff;
+}
+
+#diceImages {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#diceResult{
+    margin: 24px;
+}
+
+#diceImages img{
+     width: 200px;
+     margin: 5px;
+}
