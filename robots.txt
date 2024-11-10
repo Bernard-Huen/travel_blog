@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bernard-huen.github.io/travel_blog/sitemap.xml
